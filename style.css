@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Toàn bộ chữ giữ màu đen */
+body {
+    background-color: #00BFF2; /* Bước 2: Màu nền trang web (bậc 4) */
+    color: #000000;            /* Bước 6: Toàn bộ chữ màu đen */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #00ADEE; /* Màu chủ đạo bậc 1 */
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+/* Bước 3: Phần ON SALE / PREVIEW dùng màu bậc 1 (#00ADEE) hoặc bậc 2 (#00B2EF) */
+.promo-bar {
+    background-color: #00B2EF; /* Bậc 2 tạo điểm nổi bật */
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.promo-bar .badge {
+    background-color: #00ADEE; /* Bậc 1 */
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+/* Bước 4: Phần nội dung chuyển thành màu bậc 7 (#8DD7F7) */
+.content-box {
+    background-color: #8DD7F7; /* Bậc 7 */
+    padding: 30px;
+    border-radius: 8px;
+    line-height: 1.6;
+    flex: 1;
+}
+
+.content-box h2 {
+    margin-bottom: 12px;
+}
+
+/* Bước 5: Phần footer dùng màu bậc 9 (#C6E9FA) tạo độ sáng */
+.footer {
+    background-color: #C6E9FA; /* Bậc 9 */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 14px;
+}
